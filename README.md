@@ -1,29 +1,24 @@
-Project Management Utility
+# 🚀 Project Management Utility
 
- Overview
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage projects and tasks efficiently.
 
-Project Management Utility is a MERN Stack web application developed to manage project tasks through different phases of the Software Development Life Cycle (SDLC).
+# Features
 
-The application allows users to create, view, update, and delete tasks while tracking their progress from Planning to Deployment.
+* Create new tasks
+* Update task status
+* Delete tasks
+* Track project progress
+* Task workflow management
+* Responsive dashboard UI
+* MongoDB Atlas database integration
 
-
- Features:
-
-* Create Tasks
-* View Tasks Dashboard
-* Update Task Status
-* Delete Tasks
-* SDLC Workflow Tracking
-* MongoDB Atlas Integration
-* Responsive User Interface
-
-
-Technology Stack
+#Tech Stack
 
 #Frontend
 
 * React.js
 * Axios
+* CSS
 
 #Backend
 
@@ -35,91 +30,69 @@ Technology Stack
 * MongoDB Atlas
 * Mongoose
 
-
-#SDLC Phases
-
-Tasks progress through the following stages:
-
-1. Planning
-2. Development
-3. Testing
-4. Deployment
-
 #Project Structure
 
 project-management-utility/
-
 ├── server/
-
-│ ├── controllers/
-
-│ ├── models/
-
-│ ├── routes/
-
 │ ├── config/
-
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── client/
 │ └── server.js
-
-├── client/
-
-│ ├── src/
-
-│ ├── public/
-
-│ └── package.json
-
-└── README.md
-
+├── README.md
+└── package.json
 
 #Installation
 
-#Backend Setup
+#Clone Repository
 
-bash
-cd server
+git clone https://github.com/sravyareddy-7/project-management-utility.git
+
+#Install Backend Dependencies
+
+cd project-management-utility/server
+
 npm install
+
+#Install Frontend Dependencies
+
+cd client
+
+npm install
+
+#Run Backend
+
+cd ..
+
 npm run dev
 
-#Frontend Setup
+#Run Frontend
 
-bash
 cd client
-npm install
+
 npm start
 
-API Endpoints
+#Application URLs
 
-#Task APIs
+Frontend:
+http://localhost:3000
 
-GET /api/tasks
+Backend:
+http://localhost:5000
 
-POST /api/tasks
+#Project Highlights
 
-PUT /api/tasks/:id
+* Full CRUD Operations
+* REST API Integration
+* MongoDB Atlas Connectivity
+* Task Status Tracking
+* GitHub Version Control
 
-DELETE /api/tasks/:id
+ #Author
 
-
-#Sample Tasks
-* Requirement Analysis
-* Database Design
-* Backend API Development
-* Frontend Implementation
-* API Integration
-* Application Testing
-* Project Deployment
-
-
-#Future Enhancements
-* User Authentication
-* Task Priority Levels
-* Due Date Tracking
-* Project Management Module
-* Team Collaboration Features
-
-
-Author
 Sravya Reddy
-B.Tech Computer Science and Engineering (Data Science)
+
+B.Tech – Computer Science & Engineering (Data Science)
+
 Guru Nanak Engineering College
