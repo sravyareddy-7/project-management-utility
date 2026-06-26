@@ -3,8 +3,9 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 
-dotenv.config();
 
+dotenv.config();
+console.log("MONGO_URI =", process.env.MONGO_URI);
 const app = express();
 app.use(cors());
 // Middleware
